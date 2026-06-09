@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Sfondo Grafico circolare -->
+  <circle cx="250" cy="250" r="200" fill="#3b82f6" opacity="0.1"/>
+  
+  <!-- Sagoma Zaino Posteriore (Chiuso) -->
+  <rect x="130" y="140" width="110" height="180" rx="20" fill="#1e4ed8" stroke="#0f172a" stroke-width="4"/>
+  <rect x="150" y="115" width="70" height="25" rx="5" fill="#3b82f6"/>
+  <!-- Cerniere Evidenziate -->
+  <path d="M 130 180 L 240 180" stroke="#f59e0b" stroke-width="3" stroke-dasharray="5,5"/>
+  <path d="M 130 290 L 240 290" stroke="#f59e0b" stroke-width="3" stroke-dasharray="5,5"/>
+  <path d="M 185 140 L 185 320" stroke="#f59e0b" stroke-width="3" stroke-dasharray="5,5"/>
+
+  <!-- Sagoma Sacco a Pelo Esteso (Aperto in trasparenza/sovrapposizione) -->
+  <rect x="270" y="100" width="120" height="280" rx="30" fill="#60a5fa" opacity="0.9" stroke="#0f172a" stroke-width="4"/>
+  <!-- Cuscino integrato -->
+  <rect x="285" y="110" width="90" height="40" rx="15" fill="#f8fafc" stroke="#1e4ed8" stroke-width="2"/>
+  
+  <!-- Frecce di trasformazione -->
+  <path d="M 210 210 Q 250 180 280 200" fill="none" stroke="#ef4444" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M 210 260 Q 250 290 280 270" fill="none" stroke="#ef4444" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- Marker per le frecce -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/>
+    </marker>
+  </defs>
+  
+  <!-- Testi esplicativi sul grafico -->
+  <text x="185" y="360" font-family="Poppins, sans-serif" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle">1. Zaino Compatto (20L)</text>
+  <text x="330" y="410" font-family="Poppins, sans-serif" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle">2. Letto Istantaneo</text>
+</svg>
